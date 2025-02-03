@@ -1,5 +1,6 @@
+// Import necessary modules
 // import * as THREE from 'three';
-import { CSG } from 'three-csg-ts'; 
+import { CSG } from 'three-csg-ts';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import mars_texture from "./mars.jpg";
 
@@ -10,52 +11,55 @@ const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-// Load Textures
+// Add Ambient Light
+const ambientLight = new THREE.AmbientLight(0xffffff, 1.5);
+scene.add(ambientLight);
+
+// Load Mars Texture
 const textureLoader = new THREE.TextureLoader();
-const marsTexture = textureLoader.load(mars_texture);  
-const marsBumpMap = textureLoader.load('https://www.solarsystemscope.com/textures/download/2k_mars_normal_map.jpg'); 
+const marsTexture = textureLoader.load(mars_texture);
 
 // Create Mars Sphere
 const marsGeometry = new THREE.SphereGeometry(1, 64, 64);
 const marsMaterial = new THREE.MeshStandardMaterial({
     map: marsTexture,
-    bumpMap: marsBumpMap,
-    bumpScale: 0.05,
+    metalness: 0.3,
+    roughness: 0.7
 });
 const marsMesh = new THREE.Mesh(marsGeometry, marsMaterial);
 
-// Create Cutter to Slice Half of Mars
+// Create Cutter (Half of Mars)
 const cutterGeometry = new THREE.BoxGeometry(2, 2, 2);
-cutterGeometry.translate(1, 0, 0); // Position to cut right half
+cutterGeometry.translate(1, 0, 0);
 const cutterMesh = new THREE.Mesh(cutterGeometry, new THREE.MeshBasicMaterial());
 
+// Perform CSG subtraction (cutting Mars)
 const marsCSG = CSG.fromMesh(marsMesh);
 const cutterCSG = CSG.fromMesh(cutterMesh);
 const cutMars = marsCSG.subtract(cutterCSG);
 const marsFinal = CSG.toMesh(cutMars, new THREE.Matrix4(), marsMaterial);
-
-// Add Cut Mars to Scene
 scene.add(marsFinal);
 
-// Create Core Sphere
-const coreGeometry = new THREE.SphereGeometry(0.5, 64, 64);
-const coreMaterial = new THREE.MeshStandardMaterial({
-    color: 0xff6600, // Lava-like color
-    emissive: 0xff3300, // Glow effect
+// Fix the cut surface alignment
+const cutSurfaceGeometry = new THREE.CircleGeometry(1, 64);
+const layerTexture = new THREE.CanvasTexture(generateLayerTexture());
+const layerMaterial = new THREE.MeshStandardMaterial({
+    map: layerTexture,
+    side: THREE.DoubleSide
 });
-const core = new THREE.Mesh(coreGeometry, coreMaterial);
-scene.add(core);
+const cutSurface = new THREE.Mesh(cutSurfaceGeometry, layerMaterial);
 
-// Lighting
-const light = new THREE.PointLight(0xffffff, 0.5);
-light.position.set(2, 2, 5);
-scene.add(light);
+// **Fix Rotation and Position**
+cutSurface.rotation.y = -Math.PI / 2;  // Ensure it's exactly aligned
+cutSurface.position.x = 0.0;           // Ensure it matches the sphere's cut
+scene.add(cutSurface);
 
-const pointLight = new THREE.PointLight(0xffffff, 1);
-camera.add(pointLight);
-scene.add(camera);
+// Add Point Light for better visibility
+const pointLight = new THREE.PointLight(0xffffff, 2);
+pointLight.position.set(2, 2, 5);
+scene.add(pointLight);
 
-// Camera Position
+// Camera Setup
 camera.position.z = 3;
 
 // Orbit Controls
@@ -64,16 +68,35 @@ const controls = new OrbitControls(camera, renderer.domElement);
 // Animation Loop
 const animate = () => {
     requestAnimationFrame(animate);
-    // marsFinal.rotation.y += 0.005; // Rotate Mars
-    core.rotation.y += 0.005; // Rotate Core
     renderer.render(scene, camera);
 };
-
 animate();
 
-// Handle Window Resizing
+// Window Resize Handling
 window.addEventListener('resize', () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
 });
+
+// Function to Generate Layered Texture for Cut Surface
+function generateLayerTexture() {
+    const size = 512;
+    const canvas = document.createElement('canvas');
+    canvas.width = size;
+    canvas.height = size;
+    const ctx = canvas.getContext('2d');
+
+    // Define Layers (from Core to Crust)
+    const colors = ['#8B0000', '#B22222', '#D2691E', '#F4A460', '#FFD700']; 
+
+    for (let i = 0; i < colors.length; i++) {
+        ctx.beginPath();
+        ctx.arc(size / 2, size / 2, (size / 2) * ((i + 1) / colors.length), 0, Math.PI * 2);
+        ctx.fillStyle = colors[i];
+        ctx.fill();
+        ctx.closePath();
+    }
+
+    return canvas;
+}
