@@ -1,11 +1,11 @@
-2352
+2355
 110C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\examples\jsm\effects\ParallaxBarrierEffect.d.ts133829664534934397 0
 83C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\textures\DataTexture.js133823530188307147 0
 86C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\helpers\SpotLightHelper.js133823530199301880 0
 78C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three-csg-ts\lib\esm\NBuf.js133829664532529468 0
 91C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\geometries\TorusKnotGeometry.js133823530201387839 0
 49C:\Users\pauls\Desktop\3-demo\3-Demo\package.json133829664544652169 0
-55C:\Users\pauls\Desktop\3-demo\3-Demo\src\js\scripts4.js133830595623729057 0
+55C:\Users\pauls\Desktop\3-demo\3-Demo\src\js\scripts4.js133830609928251374 0
 80C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\math\Ray.d.ts133829664533918661 0
 47C:\Users\pauls\Desktop\3-demo\3-Demo\.gitignore133830420544326841 0
 94C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\lighting\TiledLighting.js133823530201213241 0
@@ -14,7 +14,7 @@
 97C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\nodes\functions\BasicLightingModel.js133823530185506187 0
 83C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\cameras\StereoCamera.js133823530199526290 0
 91C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\nodes\materialx\lib\mx_noise.js133823530196245833 0
-41C:\Users\pauls\Desktop\3-demo\3-Demo\dist133830595658066376 1
+41C:\Users\pauls\Desktop\3-demo\3-Demo\dist133830631355613024 1
 105C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\shaders\ShaderLib\meshbasic.glsl.js133823530195057600 0
 88C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\examples\jsm\environments133830419918938992 1
 100C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\nodes\display\ColorSpaceNode.d.ts133829664539563902 0
@@ -40,14 +40,14 @@
 85C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\nodes\display\PassNode.js133823530197078279 0
 89C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\nodes\materialx\lib\mx_hsv.js133823530196245833 0
 77C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three-csg-ts\lib\cjs\CSG.js133829664532481894 0
-51C:\Users\pauls\Desktop\3-demo\3-Demo\src\index.html133830595652248608 0
+51C:\Users\pauls\Desktop\3-demo\3-Demo\src\index.html133830614535060191 0
 63C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\LICENSE133823530181901751 0
 76C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\animation133830419926060467 1
 90C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\lines\LineGeometry.js133823530193446634 0
 123C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\shaders\ShaderChunk\logdepthbuf_pars_fragment.glsl.js133823530193747449 0
 93C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\common\RenderBundles.js133823530197905435 0
 81C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\dat.gui\build\dat.gui.module.js133825467644830673 0
-43C:\Users\pauls\Desktop\3-demo\3-Demo\src\js133830594065699049 1
+43C:\Users\pauls\Desktop\3-demo\3-Demo\src\js133830614729842896 1
 124C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\shaders\ShaderChunk\metalnessmap_pars_fragment.glsl.js133823530195958348 0
 52C:\Users\pauls\Desktop\3-demo\3-Demo\src\js\core.png133830591580503967 0
 82C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\objects\BatchedMesh.js133823530185695957 0
@@ -81,6 +81,11 @@
 55C:\Users\pauls\Desktop\3-demo\3-Demo\src\js\scripts3.js133829726203419070 0
 122C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\shaders\ShaderChunk\shadowmask_pars_fragment.glsl.js133823530198781183 0
 93C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\nodes\code\ScriptableValueNode.js133823530198582914 0
+81C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three-csg-ts\lib\esm\Polygon.js133829664532625898 0
+55C:\Users\pauls\Desktop\3-demo\3-Demo\src\js\scripts5.js133830631347505235 0
+93C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\animation\CCDIKSolver.js133823530186885940 0
+64C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\core133830419946040203 1
+93C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\nodes\lighting\AONode.d.ts133829664539862760 0
 112C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\nodes\functions\material\getParallaxCorrectNormal.js133823530191396208 0
 89C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\loaders\KTXLoader.js133823530192394696 0
 89C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\nodes\tsl\TSLBase.d.ts133829664541785527 0
@@ -183,7 +188,6 @@
 81C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three-csg-ts\lib\esm\Plane.d.ts133829664532815780 0
 79C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three-csg-ts\lib\esm\Plane.js133829664532578833 0
 79C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\nodes\materialx\lib133830419951884286 1
-81C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three-csg-ts\lib\esm\Polygon.js133829664532625898 0
 93C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\materials\MeshPhysicalMaterial.js133823530195829416 0
 95C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\geometries\TubeGeometry.d.ts133829664533102001 0
 82C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three-csg-ts\lib\esm\Vector.d.ts133829664532850552 0
@@ -253,10 +257,8 @@
 113C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\shaders\ShaderChunk\batching_vertex.glsl.js133823530185743376 0
 89C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\common\BindGroup.js133823530185860436 0
 72C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\constants.js133823530187656123 0
-64C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\core133830419946040203 1
-93C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\nodes\lighting\AONode.d.ts133829664539862760 0
 66C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\extras133830419946301421 1
-60C:\Users\pauls\Desktop\3-demo\3-Demo\dist\crust.8723ca9f.png133830595657869988 0
+60C:\Users\pauls\Desktop\3-demo\3-Demo\dist\crust.8723ca9f.png133830625298339409 0
 79C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\math\Interpolant.js133823530192203897 0
 96C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\shaders\LuminosityShader.js133823530194069571 0
 70C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\geometries133830419946758752 1
@@ -357,7 +359,6 @@
 80C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\nodes\utils\Timer.js133823530201240704 0
 88C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\nodes\accessors\SceneNode.js133823530198340982 0
 79C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\textures\Texture.js133823530199868819 0
-100C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\modifiers\TessellateModifier.js133823530199834167 0
 84C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\textures\VideoTexture.js133823530202423462 0
 106C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\nodes\functions\BSDF\Schlick_to_F0.d.ts133829664544169377 0
 83C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\objects\LineSegments.js133823530193471742 0
@@ -400,7 +401,7 @@
 95C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\geometries\TextGeometry.js133823530199853124 0
 86C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\WebGLRenderer.js133823530202936730 0
 90C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\WebGLRenderTarget.js133823530202936730 0
-65C:\Users\pauls\Desktop\3-demo\3-Demo\dist\outer_core.edc1fd8b.png133830595657212620 0
+65C:\Users\pauls\Desktop\3-demo\3-Demo\dist\outer_core.edc1fd8b.png133830625298339409 0
 95C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\common\ComputePipeline.js133823530187600075 0
 107C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\postprocessing\RenderTransitionPass.js133823530198086830 0
 91C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\lines\LineSegments2.js133823530193668217 0
@@ -825,7 +826,7 @@
 91C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\nodes\accessors\ClippingNode.js133823530187254244 0
 90C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\common\RenderList.js133823530197995386 0
 93C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\common\RenderObjects.js133823530198041221 0
-59C:\Users\pauls\Desktop\3-demo\3-Demo\dist\core.d33144c0.png133830595657313631 0
+59C:\Users\pauls\Desktop\3-demo\3-Demo\dist\core.d33144c0.png133830625298191214 0
 94C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\renderers\common\RenderPipeline.js133823530198041221 0
 93C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\src\nodes\display\RenderOutputNode.js133823530198041221 0
 101C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\geometries\OctahedronGeometry.d.ts133829664533004601 0
@@ -1447,6 +1448,7 @@
 89C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\loaders\TTFLoader.js133823530201734397 0
 81C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\build\three.module.min.js133823530200212707 0
 89C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\libs\draco\README.md133823530206931338 0
+59C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.4d4d2c2d.js133830631355467437 0
 96C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\shaders\AfterimageShader.js133823530183419896 0
 81C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\nodes\lighting133830419931769982 1
 98C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\shaders\BleachBypassShader.js133823530185944451 0
@@ -1527,6 +1529,7 @@
 93C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\objects\InstancedMesh.d.ts133829664534012520 0
 98C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\modifiers\CurveModifierGPU.js133823530188150359 0
 98C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\modifiers\SimplifyModifier.js133823530199049373 0
+100C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\modifiers\TessellateModifier.js133823530199834167 0
 96C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\misc\ConvexObjectBreaker.js133823530187744496 0
 89C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\misc\MD2Character.js133823530194964251 0
 96C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\misc\MD2CharacterComplex.js133823530195012033 0
@@ -1692,7 +1695,6 @@
 90C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\capabilities\WebGL.js133823530202653743 0
 91C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\capabilities\WebGPU.js133823530203093662 0
 102C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\animation\AnimationClipCreator.js133823530184229972 0
-93C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\jsm\animation\CCDIKSolver.js133823530186885940 0
 98C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\fonts\gentilis_bold.typeface.json133823530205016811 0
 101C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\fonts\gentilis_regular.typeface.json133823530205814679 0
 100C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\three\examples\fonts\helvetiker_bold.typeface.json133823530205877235 0
@@ -1923,7 +1925,7 @@
 91C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\nodes\utils\Discard.d.ts133829664541913065 0
 105C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\nodes\accessors\ReferenceBaseNode.d.ts133829664538609428 0
 98C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\nodes\utils\EquirectUVNode.d.ts133829664541992873 0
-59C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.ed931b27.js133830595657966872 0
+59C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.ed931b27.js133830609925897621 0
 107C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\nodes\utils\FunctionOverloadingNode.d.ts133829664541992873 0
 102C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\nodes\code\ScriptableValueNode.d.ts133829664538850749 0
 92C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\src\nodes\utils\JoinNode.d.ts133829664542025747 0
@@ -2187,7 +2189,7 @@
 100C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\examples\jsm\shaders\BlendShader.d.ts133829664536999427 0
 100C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\examples\jsm\shaders\BokehShader.d.ts133829664536999427 0
 101C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\examples\jsm\shaders\BokehShader2.d.ts133829664537049216 0
-59C:\Users\pauls\Desktop\3-demo\3-Demo\dist\mars.157742a8.jpg133830595657323668 0
+59C:\Users\pauls\Desktop\3-demo\3-Demo\dist\mars.157742a8.jpg133830625298191214 0
 110C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\examples\jsm\shaders\ColorCorrectionShader.d.ts133829664537049216 0
 111C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\examples\jsm\shaders\DepthLimitedBlurShader.d.ts133829664537049216 0
 102C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@types\three\examples\jsm\shaders\DigitalGlitch.d.ts133829664537049216 0
@@ -2344,10 +2346,11 @@
 77C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@tweenjs\tween.js\README.md133829664531987354 0
 83C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@tweenjs\tween.js\dist\tween.d.ts133829664531987354 0
 85C:\Users\pauls\Desktop\3-demo\3-Demo\node_modules\@tweenjs\tween.js\dist\tween.umd.js133829664531987354 0
+63C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.4d4d2c2d.js.map133830631355584379 0
 59C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.64a4978e.js133830579871488701 0
 63C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.64a4978e.js.map133830579871632615 0
 59C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.b6ef3989.js133830595135050430 0
 63C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.b6ef3989.js.map133830595135142910 0
-63C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.ed931b27.js.map133830595658066376 0
+63C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.ed931b27.js.map133830609926039697 0
 59C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.fcc04475.js133830407289486713 0
-52C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.html133830595657274618 0
+52C:\Users\pauls\Desktop\3-demo\3-Demo\dist\index.html133830625285470568 0
